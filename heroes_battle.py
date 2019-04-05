@@ -112,7 +112,7 @@ if turn == 1:
             player['health'] = 0
         elif enemy['health'] <= 0:
             enemy['health'] = 0
-elif turn == 0:
+elif turn == 2:
     while player['health'] > 0 and enemy['health'] > 0:
         game_round += 1
         attack(enemy, player)
